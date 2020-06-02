@@ -40,7 +40,21 @@ class App extends Component {
       console.log(this.state.tweetData.statuses)
   };
 //function that filters tweetdata by date and counts how many tweets on the day.
-  filterArray(){
+  handleFilterArray(){
+    var data = this.state.tweetData.statuses
+    var newarray = []
+    var currentDate = new Date()
+    for (var i=0;i<data.length;i++){
+      var tweetDate = (new Date(data[i].created_at))
+      console.log(tweetDate.getDate())
+      console.log(currentDate.getDate())
+      if(tweetDate.getDate() === currentDate.getDate()){
+        newarray.push(tweetDate)
+      }
+    }
+
+    console.log(newarray)
+  
   }
 
   // Calls the Express endpoint
@@ -69,6 +83,9 @@ class App extends Component {
         </p>
           <div>
             <button type="button" className="nobtn" onClick={() => this.handleFetchTweets()}>Grab tweets</button>
+          </div>
+          <div>
+            <button type="button" className="nobtn" onClick={() => this.handleFilterArray()}>Filter data</button>
           </div>
           <a
             className="App-link"
