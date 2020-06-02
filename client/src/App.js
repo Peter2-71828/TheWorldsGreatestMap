@@ -42,18 +42,17 @@ class App extends Component {
 //function that filters tweetdata by date and counts how many tweets on the day.
   handleFilterArray(){
     var data = this.state.tweetData.statuses
-    var newarray = []
+    var acc = 0
     var currentDate = new Date()
     for (var i=0;i<data.length;i++){
       var tweetDate = (new Date(data[i].created_at))
-      console.log(tweetDate.getDate())
-      console.log(currentDate.getDate())
+  
       if(tweetDate.getDate() === currentDate.getDate()){
-        newarray.push(tweetDate)
+        acc++
       }
     }
 
-    console.log(newarray)
+    console.log(acc)
   
   }
 
