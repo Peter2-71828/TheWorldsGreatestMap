@@ -4,9 +4,9 @@ import './App.css';
 var Twitter = require('twitter');
 
   var client = new Twitter({
-    // consumer_key: 'fzf7AUSDZus9uMoZXUaAkxZbT',
-    // consumer_secret: '3vdBKpUf32HnKN6GRrDal9V3LCUHwxGCKBcKZtKzbC2LWKCwqw',
-    bearer_token: 'AAAAAAAAAAAAAAAAAAAAABlYEwEAAAAAY1R%2FnW6bIf8WlEVR4zwvycOfryc%3DW8PSxjeP7JsrmP4FLMgDsDDOC3daNDTrx1sXGHgxpZrqgN2Kwy'
+    // consumer_key: '',
+    // consumer_secret: '',
+    bearer_token: ''
   })
 
 
