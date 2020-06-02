@@ -35,9 +35,13 @@ class App extends Component {
       .then(
         res => this.setState({ tweetData: res.express })
       )
-
+// WE plan to to count number of tweets in the day. If its above 40 then its RED, 20 AMBer, < 10 its GREEN.
+//we display this colour to the user
       console.log(this.state.tweetData.statuses)
   };
+//function that filters tweetdata by date and counts how many tweets on the day.
+  filterArray(){
+  }
 
   // Calls the Express endpoint
   fetchTweets = async () => {
