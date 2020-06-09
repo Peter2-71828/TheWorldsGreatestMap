@@ -52,12 +52,12 @@ npm start
 visit local host 3000 in your browser of choice
 
 ## Contributers
-Peter Dean
-Peter Stevens
-Karla Gardiner
-Will Grace
-James Oddy
-Paulo Azoia
-Arjun Roy
+* Peter Dean
+* Peter Stevens
+* Karla Gardiner
+* Will Grace
+* James Oddy
+* Paulo Azoia
+* Arjun Roy
 
 
