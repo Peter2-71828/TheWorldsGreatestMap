@@ -27,7 +27,7 @@ curl -u '<API key>:<API secret key>' \
 ```
 Following this, clone the repo
 ```
-cd client
+cd isitbusyornot
 npm install
 touch .env
 ```
@@ -39,10 +39,15 @@ REACT_APP_TWITTER_BEARER_TOKEN=<bearertoken>
 ```
 then run
 ```
-source .env
 npm run server
+```
+in a seperate terminal
+``` 
+cd client
+npm install
 npm start
 ```
+
 visit local host 3000 in your browser of choice
 
 ## Contributers
