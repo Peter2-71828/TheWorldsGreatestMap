@@ -9,6 +9,8 @@ if (process.env.NODE_ENV === 'production') {
   app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
   });
+} else{
+  require('dotenv').config();
 }
 
 const bodyParser = require('body-parser')
@@ -17,9 +19,9 @@ app.use(bodyParser.json());
 // Instantiate Twitter
 const Twitter = require('twitter');
 const twitterClient = new Twitter({
-  consumer_key: 'v1T42u5AlLVzYVejSJ16bcCLl',
-  consumer_secret: 'RBWwV7KRzVPVFJPHSiiQ6nSsL3oe3xWKBhcLTvjAGZhxx4R0IY',
-  bearer_token: 'AAAAAAAAAAAAAAAAAAAAABlYEwEAAAAAY1R%2FnW6bIf8WlEVR4zwvycOfryc%3DW8PSxjeP7JsrmP4FLMgDsDDOC3daNDTrx1sXGHgxpZrqgN2Kwy'
+  consumer_key: process.env.REACT_APP_API_KEY,
+  consumer_secret: process.env.REACT_APP_API_SECRET_KEY,
+  bearer_token: process.env.REACT_APP_TWITTER_BEARER_TOKEN
 })
 
 // console.log that your server is up and running
