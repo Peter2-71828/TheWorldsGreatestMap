@@ -1,5 +1,7 @@
 ## Is It Busy Or Not
 
+![AppImage](https://raw.githubusercontent.com/Thatguy560/CV/master/Assets/Screenshot%202020-06-04%20at%2019.48.56.png)
+
 With lock down easing but social distancing still being critical we wanted to create an app that allows users to leave the house with the knowledge that the area they want to visit wont be too busy.
 
 Is it Busy Or Not is a Single Page Web Application that allows the user to search for any area and see in real-time the number of tweets in the last hour within a kilometer radius of that point, this gives the user a good indication of how busy that area is.
@@ -43,7 +45,7 @@ then run
 npm run server
 ```
 in a seperate terminal
-``` 
+```
 cd client
 npm install
 npm start
@@ -59,4 +61,3 @@ visit local host 3000 in your browser of choice
 * James Oddy
 * Paulo Azoia
 * Arjun Roy
-
