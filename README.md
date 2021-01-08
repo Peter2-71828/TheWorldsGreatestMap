@@ -1,6 +1,9 @@
 ## Is It Busy Or Not
 
-![AppImage](https://raw.githubusercontent.com/Thatguy560/CV/master/Assets/Screenshot%202020-06-04%20at%2019.48.56.png)
+<!-- ![AppImage](https://raw.githubusercontent.com/Thatguy560/CV/master/Assets/Screenshot%202020-06-04%20at%2019.48.56.png) -->
+<p align="center">
+  <img src="DemoOfApp.gif" alt="animated" />
+</p>
 
 With lock down easing but social distancing still being critical we wanted to create an app that allows users to leave the house with the knowledge that the area they want to visit wont be too busy.
 
@@ -9,9 +12,11 @@ Is it Busy Or Not is a Single Page Web Application that allows the user to searc
 [Link to Demo](https://drive.google.com/file/d/1VVLjeefBzXYA03ihA3r-ujpe_W6j4nFq/view?usp=sharing)
 
 ## Table of Contents
-* [Tech Stack](#tech-stack)
-* [How to run](#how-to-run)
-* [Contributers](#contributers)
+- [Is It Busy Or Not](#is-it-busy-or-not)
+- [Table of Contents](#table-of-contents)
+- [Tech Stack](#tech-stack)
+- [How to run](#how-to-run)
+- [Contributers](#contributers)
 
 
 
